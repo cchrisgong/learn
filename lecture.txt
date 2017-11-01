@@ -1,0 +1,60 @@
+Git: Open-Source Software zur dezentralen Versionskontrolle von Dateien.
+(nachfolger von svn)
+Blödmann, 2005 
+(Ted Talks: The Mind Behind Linux)
+
+nicht-lineare Entwicklung (branching, tags)
+kein zentraler Server 
+kryptographische Sicherheit der Projektgeschichte (hash)
+web-Interface
+
+
+# rauf und runter
+git init
+git add .            
+git add '*.txt'
+git commit -m "first commit"
+
+# mit einer .gitignore datei wird verhindert, dass binary files, log dateien etc versionskontrolliert werden
+# create README.md
+
+# create repo on https://github.com/
+git remote add origin https://github.com/dein_benutzername/der_name_deines_repos.git
+git push -u origin master
+
+git clone
+
+git push 
+git pull
+# git pull = git fetch + git merge
+
+# status
+git status  # Änderungen am Repository nachverfolgen
+git log     # Die Commit Historie anzeigen
+git diff    # Unterschiede, zB. zwischen Commits, anzeigen 
+(git diff HEAD # Unterschied zum letzten Commit
+ git diff --staged )
+git branch  # Alle Branches anzeigen, Stern indiziert auf welchem branch man ist
+
+# branches |: Der master branch sollte immer einsatzfaehig sein :|
+git checkout -b new_branch
+git checkout new_branch
+git push origin new_origin
+git checkout master
+git merge new_branch
+
+git branch -d new_branch 
+
+try.github.io
+www.git-tower.comb/log/git-cheat-sheet/
+www.atlassian.com/git/tutorials
+git-scm.com/book/de/v1
+
+git rm
+git rm -r 
+git reset   # to unstage
+git commit --amend # Ändere commit message oder stage neuen Status 
+git stash # Änderungen verstauen 
+
+
+Pull requests and Forking
