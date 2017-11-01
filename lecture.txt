@@ -46,7 +46,7 @@ git merge new_branch
 git branch -d new_branch 
 
 try.github.io
-www.git-tower.comb/log/git-cheat-sheet/
+https://www.git-tower.com/blog/git-cheat-sheet-de
 www.atlassian.com/git/tutorials
 git-scm.com/book/de/v1
 
