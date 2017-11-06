@@ -38,6 +38,9 @@ git branch  # Alle Branches anzeigen, Stern indiziert auf welchem branch man ist
 
 # branches |: Der master branch sollte immer einsatzfaehig sein :|
 git checkout -b new_branch
+
+
+edwqnhrhfoew
 git checkout new_branch
 git push origin new_origin
 git checkout master
